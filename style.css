@@ -1,0 +1,77 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.navbar input, .navbar button {
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+/* Home page */
+.home {
+    background-image: url('https://images.unsplash.com/photo-1528164344705-47542687000d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 4em;
+}
+
+.social-icons a {
+    margin: 0 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+/* About Us Page */
+.content {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+.team-member {
+    margin: 1em 0;
+}
+
+/* Contact Us */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* Results container */
+.result-container {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.result {
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 200px;
+    text-align: center;
+    background-color: white;
+}
